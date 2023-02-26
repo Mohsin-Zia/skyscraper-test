@@ -1,0 +1,30 @@
+<div class="sucess_section_container">
+  <div class="sucess_overlay"></div>
+  <div class="sucess_section">
+    <div class="sucess_section_heading">
+      <div class="sucess_content">
+        <h2>Success Stories</h2>
+        <p>Ez-Franchise Client Testimonials</p>
+      </div>
+    </div>
+    <div class="sucess_cards_container">
+      <div class="card" *ngFor="let sucess of sucessData; let i = index">
+        <div class="card_content" [class]="'card_background_color_' + i">
+          <img
+            class="sucess_staticimage"
+            src="../../../assets/images/quote.svg"
+            alt=""
+          />
+          <p>
+            {{ sucess.description }}
+          </p>
+          <img class="sucess_dynamicImage" src="{{ sucess.image }}" alt="" />
+          <h4>{{ sucess.title }}</h4>
+          <p class="sucess_lastpara">
+            {{ sucess.para }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

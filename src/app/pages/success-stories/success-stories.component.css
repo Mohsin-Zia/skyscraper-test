@@ -1,0 +1,119 @@
+.sucess_section_container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-image: url("../../../assets/images/sucessbg.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.sucess_overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+    background-color: black;
+}
+
+.sucess_section {
+    display: block;
+    z-index: 10;
+    width: 100%;
+    max-width: 100%;
+}
+
+.sucess_content h2 {
+    font-size: 30px;
+}
+
+.sucess_content p {
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.sucess_section_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sucess_cards_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px 0px;
+}
+
+.card {
+    width: 20%;
+    text-align: center;
+
+}
+
+.card_content {
+
+    padding: 40px 20px 40px 20px;
+
+}
+
+.card_content p {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+
+.sucess_dynamicImage {
+    height: 90px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.sucess_lastpara {
+    margin-top: -20px !important;
+}
+
+.sucess_staticimage {
+    height: 35px;
+    width: 35px;
+
+}
+
+.card_background_color_0 {
+    background-color: #23CE6B;
+}
+
+.card_background_color_1 {
+    background-color: #08083D;
+}
+
+.card_background_color_2 {
+    background-color: #6184D8;
+}
+
+.card_background_color_3 {
+    background-color: #23CE6B;
+}
+
+.card_background_color_4 {
+    background-color: #6184D8;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0px;
+
+    }
+}

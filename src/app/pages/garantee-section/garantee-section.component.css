@@ -1,0 +1,40 @@
+.grantee_section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    color: white;
+    background: linear-gradient(to left, #0f2454, #6184D8);
+}
+
+.grantee_container {
+    text-align: center;
+
+}
+
+.grantee_container img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.grantee_schedulebtn {
+    display: flex;
+    justify-content: center;
+}
+
+.grantee_para {
+    display: flex;
+    justify-content: center;
+}
+
+.grantee_container p {
+    width: 50%;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .grantee_container p {
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,120 @@
+.hero_section {
+    display: flex;
+    width: 100vw;
+    max-width: 100vw;
+    justify-content: center;
+    background-image: url("../../../assets/images/schedulecall.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 0px 40px 0px;
+    background-size: cover;
+
+
+}
+
+.hero_sec_content {
+    width: 100%;
+    /* max-width: 1080px; */
+    display: flex;
+}
+
+.col1_content {
+    width: fit-content;
+}
+
+.hero_sec_col1 {
+    color: white;
+    width: 50%;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.second_title {
+    background-color: #6184D8;
+    padding: 0px 10px 0px 10px;
+    width: fit-content;
+}
+
+.hero_sec_col1 h1 {
+    text-align: left;
+    font: normal normal 800 50px/62px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.hero_sec_col1 span {
+    color: #23CE6B;
+}
+
+.hero_sec_col1 p {
+    width: 26rem;
+    text-align: left;
+    font-size: 14px;
+    font-family: system-ui;
+    line-height: 20px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.hero_button {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.hero_button button {
+    background: #23CE6B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 8px #23CE6B80;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 35px 20px 35px;
+    font: normal normal bold 18px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    color: white;
+    opacity: 1;
+}
+
+.hero_button button img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 576px) {
+
+
+    .hero_sec_col1 {
+        width: 100%;
+    }
+
+    .hero_section {
+        padding: 0;
+    }
+
+    .hero_sec_col1 h1 {
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero_sec_col1 p {
+        width: auto;
+        padding: 20px;
+    }
+
+    .hero_button {
+        justify-content: center;
+    }
+}

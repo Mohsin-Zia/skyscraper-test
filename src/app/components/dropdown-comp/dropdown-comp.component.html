@@ -1,0 +1,17 @@
+<div class="steps_drop_component">
+  <div class="steps_drop_section">
+    <div class="steps_drop_col1">
+      <h3>Step {{ index + 1 }}</h3>
+      <h2>{{ myInputData.title }}</h2>
+      <p>{{ myInputData.description }}</p>
+      <div *ngIf="index !== 5">
+        <img src="../../../assets/images/next.svg" alt="" />
+      </div>
+    </div>
+    <div class="steps_drop_col2">
+      <button class="steps_button">
+        <img src="{{ myInputData.img }}" alt="" />
+      </button>
+    </div>
+  </div>
+</div>

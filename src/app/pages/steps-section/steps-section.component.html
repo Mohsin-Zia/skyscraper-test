@@ -1,0 +1,25 @@
+<div class="steps_section_container">
+  <div class="steps_section_main">
+    <div class="steps_heading">
+      <h1>Lorem Ipsum Dolor Sit</h1>
+    </div>
+    <div class="steps_dropdown">
+      <div *ngFor="let dropdown of stepsData; let i = index">
+        <app-dropdown-comp
+          [myInputData]="dropdown"
+          [index]="i"
+        ></app-dropdown-comp>
+      </div>
+    </div>
+    <div class="steps_footer">
+      <div class="steps_footer_content">
+        <h2>Lorem, ipsum dolor sit amet...</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio a
+          cupiditate iusto vero eligendi, neque voluptates pariatur, nesciunt
+          quo distinctio, corrupti dignissimos ab?
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

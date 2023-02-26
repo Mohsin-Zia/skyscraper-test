@@ -1,0 +1,66 @@
+.steps_drop_section {
+    display: flex;
+}
+
+.steps_drop_col1 {
+    width: 70%;
+
+}
+
+.steps_drop_col1 p {
+    width: 90%;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.steps_drop_col1 img {
+    height: 30px;
+    width: 30px;
+}
+
+.steps_drop_col1 h3 {
+    color: #23CE6B;
+}
+
+.steps_drop_col2 {
+    width: 10%;
+}
+
+.steps_button {
+    width: 80px;
+    border: none;
+    outline: none;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+    background: transparent linear-gradient(328deg, #4D80FB 0%, #23CE6B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.steps_button img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+
+.steps_drop_col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 576px) {
+    .steps_button {
+        height: 50px;
+    }
+
+    .steps_button img {
+        height: 21px;
+        width: 36px;
+    }
+
+
+}

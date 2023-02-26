@@ -1,0 +1,132 @@
+.mainheader {
+    display: flex;
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: #08083D;
+}
+
+header {
+
+    height: 80px;
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: fit-content;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links .contactbtn {
+
+    width: 138px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #23CE6B 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    min-width: fit-content;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: system-ui;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.myheader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .burger div {
+        width: 20px;
+        height: 2px;
+    }
+
+    .myheader {
+        flex-direction: row-reverse;
+    }
+}

@@ -1,0 +1,24 @@
+<div class="mainheader">
+  <header>
+    <div class="myheader">
+      <div class="logo">
+        <a routerLink="/"> YOUR LOGO</a>
+      </div>
+      <div class="burger" (click)="toggleNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-links" [class.active]="showNav">
+        <li><a routerLink="/" (click)="toggleNav()">How it works</a></li>
+        <li><a routerLink="/about" (click)="toggleNav()">Franchise list</a></li>
+        <li>
+          <a routerLink="/contact" (click)="toggleNav()">Franchising guide</a>
+        </li>
+        <button class="contactbtn">Contact</button>
+      </ul>
+    </nav>
+  </header>
+</div>
